@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".module2.IntentsActivity">
+
+    <Button
+        android:id="@+id/take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:backgroundTint="#C0CA33"
+        android:text="Take"
+        android:textColor="#150657"
+        android:textSize="30sp"
+        app:strokeColor="#FFB300" />
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#76FF03"
+        android:backgroundTint="#BF8E8E"
+        android:text="get"
+        android:textColor="#150657"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="что-то"
+        android:textColor="#150657"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/messageET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="30sp" />
+</LinearLayout>
